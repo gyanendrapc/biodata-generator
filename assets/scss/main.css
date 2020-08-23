@@ -1,0 +1,95 @@
+.header {
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  text-align: center;
+}
+
+.header h2 {
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+
+.form-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.form-data form table {
+  padding: 20px 100px 20px 100px;
+  border: 1px solid black;
+}
+
+.form-data form table tr {
+  margin-top: 5px;
+}
+
+.form-data form table .submit-button {
+  text-align: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container table {
+  height: 842px;
+  width: 595px;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+          box-shadow: 5px 5px 5px #ccc;
+  margin: 0px;
+  border-spacing: 0px;
+  border: 1px solid black;
+  padding: 15px 50px 15px 50px;
+}
+
+.container table .custom-tr-height {
+  height: 52px;
+}
+
+.container table tr {
+  padding: 15px 50px 15px 50px;
+}
+
+.container table td {
+  text-transform: capitalize;
+  border-spacing: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container table h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.container table h4 {
+  margin: 0;
+}
+
+.container table .image {
+  height: 80px;
+  width: 70px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.container table .image p {
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */
